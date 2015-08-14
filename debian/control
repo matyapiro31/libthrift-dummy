@@ -1,0 +1,21 @@
+Source: thrift
+Section: devel
+Priority: optional
+Maintainer: Akira Nakagawa <matyapiro31@gmail.com>
+Build-Depends:
+Standards-Version: 3.9.5
+
+Package: libthrift-dev
+Architecture: any
+Depends: 
+Section: libdevel
+Provides: thrift
+Description: Thrift C++ development files (dummy package)
+ This package is a dummy package for libthrift-dev.
+ .
+
+Package:libthrift0
+Architecture: any
+Description: Thrift C++ library (dummy package)
+ This package is a dummy package for libthrift0.
+ .
